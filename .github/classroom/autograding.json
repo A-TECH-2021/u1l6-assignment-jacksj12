@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "MovieRatingsTest1",
+      "setup": "",
+      "run": "gradle test --tests MovieRatingsTest.main",
+      "input": "3.4",
+      "output": "Enter movie rating (as a decimal)\r\nRating rounded: 3",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    }
+  ]
+}
