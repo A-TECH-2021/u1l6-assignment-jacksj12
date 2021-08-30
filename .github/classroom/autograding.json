@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "MovieRatingsTest1",
-      "setup": "javac *.java",
+      "setup": "javac src/main/java/*.java",
       "run": "java -cp src/main/java/ MovieRatings",
       "input": "3.4",
       "output": "Enter movie rating (as a decimal)\r\nRating rounded: 3",
